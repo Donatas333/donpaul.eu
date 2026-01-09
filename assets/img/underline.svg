@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 200" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
+  <!-- Smooth, upside-down double Z-style underline using cubic Beziers -->
+  <g transform="rotate(180 1000 100)">
+    <!-- Back (darker) smooth stroke -->
+    <path d="M12 124
+             C180 96 420 80 620 98
+             C820 116 980 82 1180 100
+             C1380 118 1540 86 1740 106
+             C1900 122 1968 114 1988 110"
+          fill="none"
+          stroke="#2b2b2b"
+          stroke-width="7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          vector-effect="non-scaling-stroke"/>
+
+    <!-- Front (lighter) smooth stroke, slightly offset for parallel double-line look -->
+    <path d="M12 116
+             C180 88 420 72 620 90
+             C820 108 980 74 1180 92
+             C1380 110 1540 78 1740 98
+             C1900 114 1968 106 1988 102"
+          fill="none"
+          stroke="#d0d0d0"
+          stroke-width="5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          vector-effect="non-scaling-stroke"/>
+
+      <!-- Central Z-like pen stroke for a clear 'Z' in the middle -->
+      <path d="M800 94 H1200 L920 134 H1240"
+          fill="none"
+          stroke="#131313"
+          stroke-width="14"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          opacity="0.98"
+          vector-effect="non-scaling-stroke"/>
+  </g>
+</svg>

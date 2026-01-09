@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title data-i18n="portfolioPages.videoGenerator.headTitle">Portfolio - Video Generator</title>
+  <meta name="description" content="AI-powered video generator for social media content creation.">
+  <meta name="keywords" content="Video Generator, AI, Automation, Social Media, Content Creation">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@700&family=Nunito:wght@400;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: SnapFolio
+  * Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
+  * Updated: Jul 21 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="header-container d-flex flex-column align-items-start">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="https://beproblem.lt/index.html#hero" class="active"><i class="bi bi-house navicon"></i><span
+                data-i18n="nav.home">Pradžia</span></a></li>
+          <li><a href="https://beproblem.lt/index.html#services"><i class="bi bi-hdd-stack navicon"></i> <span
+                data-i18n="nav.services">Paslaugos</span></a></li>
+          <li><a href="https://beproblem.lt/index.html#portfolio"><i class="bi bi-images navicon"></i> <span
+                data-i18n="nav.portfolio">Projektai</span></a></li>
+          <li><a href="https://beproblem.lt/index.html#about"><i class="bi bi-person navicon"></i> <span
+                data-i18n="nav.about">Apie mane</span></a></li>
+          <li><a href="https://beproblem.lt/index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> <span
+                data-i18n="nav.resume">CV</span></a></li>
+          <li><a href="https://beproblem.lt/index.html#contact"><i class="bi bi-envelope navicon"></i> <span
+                data-i18n="nav.contact">Kontaktai</span></a></li>
+        </ul>
+      </nav>
+
+      <div class="social-links text-center">
+        <a href="https://www.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/Donatas333" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/donatas73a/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+      <div class="language-switcher text-center mt-3">
+        <button class="lang-btn" data-lang="lt" aria-label="Switch to Lithuanian">LT</button>
+        <span class="separator">|</span>
+        <button class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
+        <span class="separator">|</span>
+        <button class="lang-btn" data-lang="nl" aria-label="Switch to Dutch">NL</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0" data-i18n="portfolioPages.common.pageTitle">Apie Portfolio</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html" data-i18n="nav.home">Pradžia</a></li>
+            <li class="current" data-i18n="portfolioPages.common.breadcrumbCurrent">Portfolio Apžvalga</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Case Study Section -->
+    <section id="portfolio-details" class="case-study section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Project Title -->
+        <h1 class="case-study-title mb-4" data-aos="fade-up" data-aos-delay="100">
+          <span data-i18n="portfolioPages.videoGenerator.category">Video Generator</span>
+        </h1>
+
+        <!-- Hero Image -->
+        <div class="case-study-hero mb-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="portfolio-details-slider swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+                {
+                  "loop": false,
+                  "rewind": true,
+                  "speed": 600,
+                  "autoplay": {"delay": 5000},
+                  "slidesPerView": 1,
+                  "spaceBetween": 20,
+                  "allowTouchMove": true,
+                  "shortSwipes": true,
+                  "longSwipes": true,
+                  "longSwipesMs": 200,
+                  "touchReleaseOnEdges": false,
+                  "followFinger": true,
+                  "navigation": {"nextEl": ".portfolio-hero-next", "prevEl": ".portfolio-hero-prev"},
+                  "pagination": {"el": ".portfolio-swiper-pagination", "type": "bullets", "clickable": true}
+                }
+              </script>
+            <div class="portfolio-swiper-wrapper swiper-wrapper align-items-center">
+              <div class="portfolio-swiper-slide swiper-slide">
+                <img src="assets/img/portfolio/portfolio-video-generator.webp" alt="Video Generator" class="img-fluid"
+                  loading="lazy">
+              </div>
+              <div class="portfolio-swiper-slide swiper-slide">
+                <img src="assets/img/portfolio/portfolio-main-2.webp" alt="Portfolio Image" class="img-fluid"
+                  loading="lazy">
+              </div>
+              <div class="portfolio-swiper-slide swiper-slide">
+                <img src="assets/img/portfolio/portfolio-main-3.webp" alt="Portfolio Image" class="img-fluid"
+                  loading="lazy">
+              </div>
+              <div class="portfolio-swiper-slide swiper-slide">
+                <img src="assets/img/portfolio/portfolio-main-4.webp" alt="Portfolio Image" class="img-fluid"
+                  loading="lazy">
+              </div>
+            </div>
+            <div class="swiper-button-prev portfolio-hero-prev"></div>
+            <div class="swiper-button-next portfolio-hero-next"></div>
+            <div class="portfolio-swiper-pagination swiper-pagination"></div>
+          </div>
+        </div>
+
+        <!-- Context Section -->
+        <div class="row gy-4 mb-5">
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="150">
+            <div class="case-study-card">
+              <h4><i class="bi bi-building"></i> <span
+                  data-i18n="portfolioPages.videoGenerator.contextLabelIndustry">Industry</span></h4>
+              <p data-i18n="portfolioPages.videoGenerator.contextIndustry">Content Creation / Social Media</p>
+            </div>
+          </div>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="case-study-card">
+              <h4><i class="bi bi-diagram-3"></i> <span
+                  data-i18n="portfolioPages.videoGenerator.contextLabelScale">Scale</span></h4>
+              <p data-i18n="portfolioPages.videoGenerator.contextScale">Individual / Small Business</p>
+            </div>
+          </div>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="250">
+            <div class="case-study-card">
+              <h4><i class="bi bi-person-badge"></i> <span data-i18n="portfolioPages.videoGenerator.contextLabelRole">My
+                  Role</span></h4>
+              <p data-i18n="portfolioPages.videoGenerator.contextRole">AI Workflow Designer & Developer</p>
+            </div>
+          </div>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="case-study-card">
+              <h4><i class="bi bi-calendar-month"></i> <span
+                  data-i18n="portfolioPages.videoGenerator.contextLabelTimeline">Timeline</span></h4>
+              <p data-i18n="portfolioPages.videoGenerator.contextTimeline">April 2025</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Problem Section -->
+        <div class="case-study-section mb-5" data-aos="fade-up" data-aos-delay="200">
+          <h2 data-i18n="portfolioPages.videoGenerator.problemTitle">Problem</h2>
+          <div class="section-content">
+            <h4 data-i18n="portfolioPages.videoGenerator.problemWhatTitle">What Was Broken</h4>
+            <p data-i18n="portfolioPages.videoGenerator.problemWhat">
+              Content creators struggled to quickly turn ideas into engaging videos. Manual editing, asset collection,
+              and publishing were slow and repetitive.
+            </p>
+
+            <h4 class="mt-3" data-i18n="portfolioPages.videoGenerator.problemWhoTitle">Who Was Affected</h4>
+            <p data-i18n="portfolioPages.videoGenerator.problemWho">
+              Solo creators and small businesses with limited resources for video production and editing.
+            </p>
+
+            <h4 class="mt-3" data-i18n="portfolioPages.videoGenerator.problemRiskTitle">Business Risk</h4>
+            <p data-i18n="portfolioPages.videoGenerator.problemRisk">
+              Slow production cycles led to missed trends and reduced audience engagement, limiting growth potential.
+            </p>
+          </div>
+        </div>
+
+        <!-- Analysis Section -->
+        <div class="case-study-section mb-5" data-aos="fade-up" data-aos-delay="250">
+          <h2 data-i18n="portfolioPages.videoGenerator.analysisTitle">Analysis</h2>
+          <div class="section-content">
+            <h4 data-i18n="portfolioPages.videoGenerator.analysisApproachTitle">Approach</h4>
+            <p data-i18n="portfolioPages.videoGenerator.analysisApproach">
+              Mapped the video creation workflow, identified bottlenecks, and researched AI tools for image and video
+              generation. Designed an automated pipeline using Make.com and AI APIs.
+            </p>
+
+            <h4 class="mt-3" data-i18n="portfolioPages.videoGenerator.analysisFindingsTitle">Key Discoveries</h4>
+            <ul class="case-study-list">
+              <li data-i18n="portfolioPages.videoGenerator.analysisFinding1">AI can generate story-driven images from
+                prompts</li>
+              <li data-i18n="portfolioPages.videoGenerator.analysisFinding2">Automated video assembly saves hours</li>
+              <li data-i18n="portfolioPages.videoGenerator.analysisFinding3">Database storage enables easy content reuse
+              </li>
+              <li data-i18n="portfolioPages.videoGenerator.analysisFinding4">Ready-to-publish output streamlines social
+                posting</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Solution Section -->
+        <div class="case-study-section mb-5" data-aos="fade-up" data-aos-delay="300">
+          <h2 data-i18n="portfolioPages.videoGenerator.solutionTitle">Solution</h2>
+          <div class="section-content">
+            <h4 data-i18n="portfolioPages.videoGenerator.solutionDesignedTitle">What Was Designed</h4>
+            <p data-i18n="portfolioPages.videoGenerator.solutionDesigned">
+              Built an AI-powered pipeline that generates images from prompts, assembles them into videos, stores all
+              assets, and outputs ready-to-publish content.
+            </p>
+
+            <h4 class="mt-3" data-i18n="portfolioPages.videoGenerator.workflowTitle">Automation Workflow</h4>
+            <div class="row gy-3">
+              <div class="col-md-6">
+                <div class="workflow-step" data-aos="fade-up">
+                  <div class="step-number">1</div>
+                  <div>
+                    <h5 data-i18n="portfolioPages.videoGenerator.workflowStep1Title">Prompt Analysis</h5>
+                    <p data-i18n="portfolioPages.videoGenerator.workflowStep1Text">AI interprets the story and generates
+                      image prompts</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="workflow-step" data-aos="fade-up">
+                  <div class="step-number">2</div>
+                  <div>
+                    <h5 data-i18n="portfolioPages.videoGenerator.workflowStep2Title">Image Generation</h5>
+                    <p data-i18n="portfolioPages.videoGenerator.workflowStep2Text">AI creates images for each story step
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="workflow-step" data-aos="fade-up">
+                  <div class="step-number">3</div>
+                  <div>
+                    <h5 data-i18n="portfolioPages.videoGenerator.workflowStep3Title">Video Assembly</h5>
+                    <p data-i18n="portfolioPages.videoGenerator.workflowStep3Text">Images and clips are combined into a
+                      video</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="workflow-step" data-aos="fade-up">
+                  <div class="step-number">4</div>
+                  <div>
+                    <h5 data-i18n="portfolioPages.videoGenerator.workflowStep4Title">Publish</h5>
+                    <p data-i18n="portfolioPages.videoGenerator.workflowStep4Text">Final video is ready for social media
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h4 class="mt-4" data-i18n="portfolioPages.videoGenerator.solutionWhyTitle">Why This Solution</h4>
+            <p data-i18n="portfolioPages.videoGenerator.solutionWhy">
+              Automation accelerates content creation, reduces manual effort, and enables creators to keep up with
+              trends and audience demand.
+            </p>
+          </div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="case-study-section mb-5" data-aos="fade-up" data-aos-delay="350">
+          <h2 class="results-title" data-i18n="portfolioPages.videoGenerator.resultsTitle">Results</h2>
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <div class="result-card">
+                <div class="result-icon"><i class="bi bi-clock"></i></div>
+                <h4 data-i18n="portfolioPages.videoGenerator.resultHeadingTime">Time Saved</h4>
+                <p class="result-value" data-i18n="portfolioPages.videoGenerator.resultValueTime">4-6 hours/video</p>
+                <p data-i18n="portfolioPages.videoGenerator.resultTime">Video creation time reduced by 80%</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="result-card">
+                <div class="result-icon"><i class="bi bi-graph-up"></i></div>
+                <h4 data-i18n="portfolioPages.videoGenerator.resultHeadingOutput">Content Output</h4>
+                <p class="result-value" data-i18n="portfolioPages.videoGenerator.resultValueOutput">Doubled</p>
+                <p data-i18n="portfolioPages.videoGenerator.resultOutput">More videos published per week</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="result-card">
+                <div class="result-icon"><i class="bi bi-check-circle"></i></div>
+                <h4 data-i18n="portfolioPages.videoGenerator.resultHeadingQuality">Quality</h4>
+                <p class="result-value" data-i18n="portfolioPages.videoGenerator.resultValueQuality">Consistent</p>
+                <p data-i18n="portfolioPages.videoGenerator.resultQuality">AI ensures on-brand visuals</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="result-card">
+                <div class="result-icon"><i class="bi bi-layers"></i></div>
+                <h4 data-i18n="portfolioPages.videoGenerator.resultHeadingReuse">Reuse</h4>
+                <p class="result-value" data-i18n="portfolioPages.videoGenerator.resultValueReuse">Easy</p>
+                <p data-i18n="portfolioPages.videoGenerator.resultReuse">Assets stored for future projects</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools & Artifacts Section -->
+        <div class="case-study-section" data-aos="fade-up" data-aos-delay="400">
+          <h2 class="tools-artifacts-title" data-i18n="portfolioPages.videoGenerator.toolsArtifactsTitle">Tools &
+            Artifacts</h2>
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <h4><i class="bi bi-tools"></i> <span data-i18n="portfolioPages.videoGenerator.toolsTitle">Tools
+                  Used</span></h4>
+              <ul class="tools-list">
+                <li data-i18n="portfolioPages.videoGenerator.tools.make">Make.com - Workflow orchestration & automation
+                </li>
+                <li data-i18n="portfolioPages.videoGenerator.tools.imageGenerator">AI Image Generator - Prompt-based
+                  image creation</li>
+                <li data-i18n="portfolioPages.videoGenerator.tools.videoAssembly">Video Assembly Tool - Automated video
+                  editing</li>
+                <li data-i18n="portfolioPages.videoGenerator.tools.database">Database Storage - Asset management</li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <h4><i class="bi bi-file-earmark-text"></i> <span
+                  data-i18n="portfolioPages.videoGenerator.artifactsTitle">Deliverables</span></h4>
+              <ul class="tools-list">
+                <li data-i18n="portfolioPages.videoGenerator.artifacts.makeScenario">Make.com Scenario - Video
+                  automation blueprint</li>
+                <li data-i18n="portfolioPages.videoGenerator.artifacts.integrationDocs">Integration Docs - API and
+                  workflow documentation</li>
+                <li data-i18n="portfolioPages.videoGenerator.artifacts.userGuide">User Guide - Video generator usage
+                  instructions</li>
+                <li data-i18n="portfolioPages.videoGenerator.artifacts.videoTemplates">Video Templates - Customizable
+                  for different stories</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Related Portfolio Items -->
+      <div class="container mt-5 pt-5">
+        <h2 class="text-center mb-4" data-aos="fade-up" data-i18n="portfolioPages.videoGenerator.exploreOtherProjects">
+          Explore Other Projects</h2>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="related-portfolio-card">
+              <div class="card-image">
+                <img src="assets/img/portfolio/portfolio-auto-emails.webp" alt="Auto Emails" class="img-fluid"
+                  loading="lazy">
+              </div>
+              <div class="card-content">
+                <span class="card-category"
+                  data-i18n="portfolioPages.videoGenerator.related1.category">Automation</span>
+                <h4 data-i18n="portfolioPages.videoGenerator.related1.title">Auto Email</h4>
+                <p data-i18n="portfolioPages.videoGenerator.related1.desc">Automated Email Reminder System</p>
+                <a href="portfolio-auto-emails.html" class="card-link">
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="related-portfolio-card">
+              <div class="card-image">
+                <img src="assets/img/portfolio/portfolio-video-generator.webp" alt="Video Generator" class="img-fluid"
+                  loading="lazy">
+              </div>
+              <div class="card-content">
+                <span class="card-category" data-i18n="portfolioPages.videoGenerator.related2.category">Social
+                  Media</span>
+                <h4 data-i18n="portfolioPages.videoGenerator.related2.title">Video Generator</h4>
+                <p data-i18n="portfolioPages.videoGenerator.related2.desc">AI-Powered Content Creation</p>
+                <a href="portfolio-video-generator.html" class="card-link">
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="related-portfolio-card">
+              <div class="card-image">
+                <img src="assets/img/portfolio/portfolio-auto-crm.webp" alt="CRM Automation" class="img-fluid"
+                  loading="lazy">
+              </div>
+              <div class="card-content">
+                <span class="card-category" data-i18n="portfolioPages.videoGenerator.related3.category">Business
+                  Process</span>
+                <h4 data-i18n="portfolioPages.videoGenerator.related3.title">CRM Automation</h4>
+                <p data-i18n="portfolioPages.videoGenerator.related3.desc">Streamlined Business Processes</p>
+                <a href="portfolio-auto-CRM.html" class="card-link">
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Case Study Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>2025</span> <strong class="px-1 sitename">BeProblem</strong> <span data-i18n="footer.rights">Visos
+            teisės saugomos</span></p>
+      </div>
+      <div class="credits">
+        <a href="https://beproblem.lt/" data-i18n="footer.tagline">Kuriame sprendimus, kurie palengvina jūsų
+          kasdienybę</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- i18n Script -->
+  <script src="assets/js/i18n.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Snake Effect for Workflow Steps -->
+  <script>
+    (function initSnakeEffect() {
+      const run = () => {
+        const workflowSteps = document.querySelectorAll('.workflow-step');
+        if (!workflowSteps.length) return;
+
+        let timeouts = [];
+
+        workflowSteps.forEach((step, index) => {
+          step.addEventListener('mouseenter', function () {
+            // Remove fade-out class when mouse enters
+            this.classList.remove('rim-fade-out');
+            const stepNumber = this.querySelector('.step-number');
+            if (stepNumber) stepNumber.classList.remove('icon-fade-out');
+
+            // clear any pending timeouts
+            timeouts.forEach(t => clearTimeout(t));
+            timeouts = [];
+
+            // activate hovered immediately
+            workflowSteps.forEach(s => s.classList.remove('snake-active'));
+            step.classList.add('snake-active');
+
+            // stagger others
+            workflowSteps.forEach((otherStep, otherIndex) => {
+              if (otherIndex === index) return;
+              const delay = Math.abs(otherIndex - index) * 160; // 160ms per distance
+              const t = setTimeout(() => {
+                otherStep.classList.add('snake-active');
+              }, delay);
+              timeouts.push(t);
+            });
+          });
+
+          step.addEventListener('mouseleave', function () {
+            timeouts.forEach(t => clearTimeout(t));
+            timeouts = [];
+            workflowSteps.forEach(s => s.classList.remove('snake-active'));
+
+            // Apply fade-out animation
+            this.classList.add('rim-fade-out');
+            const stepNumber = this.querySelector('.step-number');
+            if (stepNumber) stepNumber.classList.add('icon-fade-out');
+          });
+        });
+      };
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', run);
+      } else {
+        run();
+      }
+    })();
+
+    /* Rim fade-out for cards */
+    (function initCardRimFade() {
+      const run = () => {
+        const cards = document.querySelectorAll('.case-study-card, .result-card, .related-portfolio-card');
+        cards.forEach(card => {
+          card.addEventListener('mouseenter', function () {
+            this.classList.remove('rim-fade-out');
+            const icon = this.querySelector('.result-icon');
+            if (icon) icon.classList.remove('icon-fade-out');
+          });
+
+          card.addEventListener('mouseleave', function () {
+            this.classList.add('rim-fade-out');
+            const icon = this.querySelector('.result-icon');
+            if (icon) icon.classList.add('icon-fade-out');
+          });
+        });
+      };
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', run);
+      } else {
+        run();
+      }
+    })();
+
+    // Underline animation: play on load and replay on hover/focus
+    (function initUnderlineAnimation() {
+      const run = () => {
+        const headings = document.querySelectorAll('.case-study-section h2');
+        if (!headings.length) return;
+
+        const restart = (el) => {
+          el.classList.remove('underline-active');
+          void el.offsetWidth; // force reflow to restart animation
+          el.classList.add('underline-active');
+        };
+
+        headings.forEach(h => {
+          restart(h); // play once on load
+          h.addEventListener('mouseenter', () => restart(h));
+          h.addEventListener('focus', () => restart(h));
+        });
+      };
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', run);
+      } else {
+        run();
+      }
+    })();
+
+  </script>
+
+</body>
+
+</html>
