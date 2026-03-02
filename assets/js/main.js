@@ -84,7 +84,8 @@
       duration: 600,
       easing: 'ease-in-out',
       once: true,
-      mirror: false
+      mirror: false,
+      offset: 100
     });
   }
   window.addEventListener('load', aosInit);
@@ -133,6 +134,29 @@
       }
     });
   });
+
+  /**
+   * Force testimonials to load early with aggressive Waypoint trigger
+   */
+  let testimonialsSection = document.querySelector('#testimonials');
+  let testimonialsTriggered = false;
+  if (testimonialsSection) {
+    new Waypoint({
+      element: testimonialsSection,
+      offset: '200%',  // Trigger when section is 2 screens below visible area
+      handler: function (direction) {
+        if (direction === 'down' && !testimonialsTriggered) {
+          testimonialsTriggered = true;
+          // Force all testimonial AOS elements to animate immediately
+          let aosElements = testimonialsSection.querySelectorAll('[data-aos]');
+          aosElements.forEach(el => {
+            el.classList.add('aos-animate');
+          });
+          AOS.refresh();
+        }
+      }
+    });
+  }
 
   /**
    * Hover-activated skill rows: start progress from 0% and pop label

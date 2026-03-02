@@ -486,23 +486,73 @@
           <div class="filters-wrapper" data-aos="fade-up" data-aos-delay="150">
             <ul class="portfolio-filters isotope-filters">
               <li data-filter="*" class="filter-active" data-i18n="portfolio.allProjects">Visi Projektai</li>
-              <li data-filter=".filter-automatizacija" data-i18n="portfolio.automation">Automatizacijos ir AI</li>
-              <li data-filter=".filter-tinklai" data-i18n="portfolio.socialMedia">Soc Tinklai</li>
-              <li data-filter=".filter-procesai" data-i18n="portfolio.businessProcess">Verslo Procesai</li>
-              <li data-filter=".filter-UI" data-i18n="portfolio.uiux">UI ir UX</li>
+              <li data-filter=".filter-powerbi" data-i18n="portfolio.powerbi">Power BI</li>
+              <li data-filter=".filter-analytics" data-i18n="portfolio.DataAnalytics">Data ir Analitika</li>
+              <li data-filter=".filter-automatizacija" data-i18n="portfolio.automation">Automatizacijos</li>
+              <li data-filter=".filter-ai" data-i18n="portfolio.ai">AI</li>
             </ul>
           </div>
 
           <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-automatizacija">
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-powerbi">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-auto-emails.webp" class="img-fluid" alt="Portfolio Image"
+                <img src="assets/img/portfolio/portfolio-flight-analysis.webp" class="img-fluid" alt="Portfolio Image"
                   loading="lazy">
                 <div class="portfolio-info">
                   <div class="content">
-                    <span class="category">automatizacija</span>
-                    <h4>Auto Email</h4>
+                    <span class="category" data-i18n="portfolioItems.flightAnalysis.category">Power BI</span>
+                    <h4 data-i18n="portfolioItems.flightAnalysis.title">US Flight Performance Analysis</h4>
+                    <div class="portfolio-links">
+                      <a href="portfolio-flight-analysis.html" title="More Details"><i
+                          class="bi bi-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-ai">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/portfolio-website-build.webp" class="img-fluid" alt="Portfolio Image"
+                  loading="lazy">
+                <div class="portfolio-info">
+                  <div class="content">
+                    <span class="category" data-i18n="portfolioItems.portfolioWebsite.category">AI</span>
+                    <h4 data-i18n="portfolioItems.portfolioWebsite.title">Portfolio Website</h4>
+                    <div class="portfolio-links">
+                      <a href="portfolio-website-build.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-powerbi">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/portfolio-sales-analysis.webp" class="img-fluid" alt="Portfolio Image"
+                  loading="lazy">
+                <div class="portfolio-info">
+                  <div class="content">
+                    <span class="category" data-i18n="portfolioItems.salesAnalysis.category">Power BI</span>
+                    <h4 data-i18n="portfolioItems.salesAnalysis.title">Sales Performance & Profitability Analysis</h4>
+                    <div class="portfolio-links">
+                      <a href="portfolio-sales-performace.html" title="More Details"><i
+                          class="bi bi-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-automatizacija">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/portfolio-email-automation.webp" class="img-fluid" alt="Portfolio Image"
+                  loading="lazy">
+                <div class="portfolio-info">
+                  <div class="content">
+                    <span class="category" data-i18n="portfolioItems.autoEmails.category">Automation</span>
+                    <h4 data-i18n="portfolioItems.autoEmails.title">Auto Email</h4>
                     <div class="portfolio-links">
                       <a href="portfolio-auto-emails.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
                     </div>
@@ -511,87 +561,57 @@
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-tinklai">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-video-generator.webp" class="img-fluid" alt="Portfolio Image"
-                  loading="lazy">
-                <div class="portfolio-info">
-                  <div class="content">
-                    <span class="category">Socialiniai tinklai</span>
-                    <h4>AI Video/Short Generator</h4>
-                    <div class="portfolio-links">
-                      <a href="portfolio-video-generator.html" title="More Details"><i
-                          class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-tinklai">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-auto-captions.webp" class="img-fluid" alt="Portfolio Image"
-                  loading="lazy">
-                <div class="portfolio-info">
-                  <div class="content">
-                    <span class="category">Socialiniai tinklai</span>
-                    <h4>Auto Caption, Scheduling, Posting</h4>
-                    <div class="portfolio-links">
-                      <a href="portfolio-auto-captions.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-procesai">
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-automatizacija">
               <div class="portfolio-wrap">
                 <img src="assets/img/portfolio/portfolio-auto-CRM.webp" class="img-fluid" alt="Portfolio Image"
                   loading="lazy">
                 <div class="portfolio-info">
                   <div class="content">
-                    <span class="category">Verlso procesai</span>
-                    <h4>CRM Auto Populator</h4>
+                    <span class="category" data-i18n="portfolioItems.autoCRM.category">Automation</span>
+                    <h4 data-i18n="portfolioItems.autoCRM.title">CRM Auto Populator</h4>
                     <div class="portfolio-links">
-                      <a href="portfolio-auto-CRM.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                      <a href="portfolio-auto-crm.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-UI">
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-analytics">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-website.webp" class="img-fluid" alt="Portfolio Image"
+                <img src="assets/img/portfolio/portfolio-ecommerce-sql.webp" class="img-fluid" alt="Portfolio Image"
                   loading="lazy">
                 <div class="portfolio-info">
                   <div class="content">
-                    <span class="category">UI ir UX</span>
-                    <h4>Portfolio Website</h4>
+                    <span class="category" data-i18n="portfolioItems.customerSegmentation.category">Data
+                      Analytics</span>
+                    <h4 data-i18n="portfolioItems.customerSegmentation.title">E-commerce Sales Analysis with SQL</h4>
                     <div class="portfolio-links">
-                      <a href="portfolio-website.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                      <a href="portfolio-ecommerce-sql.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-UI">
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-automatizacija filter-ai">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-testimonial-generator.webp" class="img-fluid"
-                  alt="Portfolio Image" loading="lazy">
+                <img src="assets/img/portfolio/portfolio-zoom-intelligence.webp" class="img-fluid" alt="Portfolio Image"
+                  loading="lazy">
                 <div class="portfolio-info">
                   <div class="content">
-                    <span class="category">UI ir UX</span>
-                    <h4>Portfolio/ Testimonial Generator</h4>
+                    <span class="category" data-i18n="portfolioItems.AIzoomMeetings.category">Data
+                      Analytics</span>
+                    <h4 data-i18n="portfolioItems.AIzoomMeetings.title">E-commerce Sales Analysis with SQL</h4>
                     <div class="portfolio-links">
-                      <a href="portfolio-testimonial-generator.html" title="More Details"><i
+                      <a href="portfolio-zoom-meeting-generator.html" title="More Details"><i
                           class="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
+
           </div><!-- End Portfolio Container -->
 
           <!-- Pagination controls for portfolio when more than 4 items -->
@@ -662,8 +682,8 @@
                       ne tik atrodė puikiai, bet ir veikė be priekaištų.</span>
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
-                  <img src="assets/img/profile/profile-agne.webp" class="testimonial-img" alt="">
-                  <h3>Agnė Petrauskaitė</h3>
+                  <img src="assets/img/person/power-bi-icon.png" class="testimonial-img" alt="">
+                  <h3>Power BI</h3>
                   <h4 data-i18n="testimonials.t1.role">Rinkodaros vadovė</h4>
                 </div>
               </div><!-- End testimonial item -->
@@ -676,8 +696,8 @@
                       įgyvendino mūsų idėjas, bet ir pasiūlė geresnių.</span>
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
-                  <img src="assets/img/profile/profile-tomas.webp" class="testimonial-img" alt="">
-                  <h3>Tomas Jankauskas</h3>
+                  <img src="assets/img/person/power-bi-icon.png" class="testimonial-img" alt="">
+                  <h3>Power BI</h3>
                   <h4 data-i18n="testimonials.t2.role">Verslo plėtros vadovas</h4>
                 </div>
               </div><!-- End testimonial item -->
@@ -691,8 +711,8 @@
                       dienas. Efektyvu, aišku ir kokybiška.</span>
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
-                  <img src="assets/img/profile/profile-marius.webp" class="testimonial-img" alt="">
-                  <h3>Marius Stankevičius</h3>
+                  <img src="assets/img/person/make-icon.png" class="testimonial-img" alt="">
+                  <h3>Make.com</h3>
                   <h4 data-i18n="testimonials.t3.role">IT vadovas</h4>
                 </div>
               </div><!-- End testimonial item -->
@@ -705,8 +725,11 @@
                       Rezultatas – profesionalus ir funkcionalus sprendimas.</span>
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
-                  <img src="assets/img/profile/profile-egle.webp" class="testimonial-img" alt="">
-                  <h3>Eglė Žukaitė</h3>
+                  <div class="testimonial-images-overlap">
+                    <img src="assets/img/person/saleforce-icon.png" class="testimonial-img" alt="">
+                    <img src="assets/img/person/make-icon.png" class="testimonial-img" alt="">
+                  </div>
+                  <h3>Make.com</h3>
                   <h4 data-i18n="testimonials.t4.role">Projektų koordinatorė</h4>
                 </div>
               </div><!-- End testimonial item -->
@@ -720,8 +743,11 @@
                       daug laiko kasdieniuose procesuose.</span>
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
-                  <img src="assets/img/profile/profile-laura.webp" class="testimonial-img" alt="">
-                  <h3>Laura Rimkutė</h3>
+                  <div class="testimonial-images-overlap">
+                    <img src="assets/img/person/zoom-icon.jpg" class="testimonial-img" alt="">
+                    <img src="assets/img/person/make-icon.png" class="testimonial-img" alt="">
+                  </div>
+                  <h3>Make.com</h3>
                   <h4 data-i18n="testimonials.t5.role">Klientų aptarnavimo vadovė</h4>
                 </div>
               </div><!-- End testimonial item -->
@@ -734,8 +760,12 @@
                       išskirtinis. Viskas atrodo vientisa ir profesionalu.</span>
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
-                  <img src="assets/img/profile/profile-justinas.webp" class="testimonial-img" alt="">
-                  <h3>Justinas Paulauskas</h3>
+                  <div class="testimonial-images-overlap">
+                    <img src="assets/img/person/claude-icon.png" class="testimonial-img" alt="">
+                    <img src="assets/img/person/github-icon.png" class="testimonial-img" alt="">
+                    <img src="assets/img/person/chatgpt-icon.png" class="testimonial-img" alt="">
+                  </div>
+                  <h3>Claude, Github, ChatGPT</h3>
                   <h4 data-i18n="testimonials.t6.role">Kūrybos vadovas</h4>
                 </div>
               </div><!-- End testimonial item -->
@@ -1022,7 +1052,7 @@
                 <div class="icon-wrapper">
                   <i class="bi bi-emoji-smile"></i>
                 </div>
-                <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1"
+                <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
                   class="purecounter"></span>
                 <p data-i18n="stats.clients">Patenkinti Klientai</p>
               </div><!-- End Stats Item -->
@@ -1031,7 +1061,7 @@
                 <div class="icon-wrapper">
                   <i class="bi bi-journal-richtext"></i>
                 </div>
-                <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1"
+                <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"
                   class="purecounter"></span>
                 <p data-i18n="stats.projects">Įgyvendinti Projektai</p>
               </div><!-- End Stats Item -->
@@ -1040,7 +1070,7 @@
                 <div class="icon-wrapper">
                   <i class="bi bi-person-workspace"></i>
                 </div>
-                <span data-purecounter-start="0" data-purecounter-end="614" data-purecounter-duration="1"
+                <span data-purecounter-start="0" data-purecounter-end="711" data-purecounter-duration="1"
                   class="purecounter"></span>
                 <p data-i18n="stats.hours">Valandų Mokymuisi ir Praktikai</p>
               </div><!-- End Stats Item -->
@@ -1069,8 +1099,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2 data-i18n="skills.title">Įgūdžiai</h2>
-        <p data-i18n="skills.subtitle">Įrankiai ir žinios, leidžiančios idėjas paversti veikiančiais projektais</p>
+        <h2 data-i18n="skills.title">Skills</h2>
+        <p data-i18n="skills.subtitle">Tools and knowledge that turn ideas into working projects</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -1078,100 +1108,120 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
-              <h3 data-i18n="skills.creative">Kūrybiniai ir Vizualūs Įgūdžiai</h3>
+              <h3 data-i18n="skills.analytical">Analytical & BI Skills</h3>
               <div class="skills-animation">
                 <div class="skill-item">
                   <div class="d-flex justify-content-between align-items-center">
-                    <h4 data-i18n="skills.webDev">Web Programavimas</h4>
+                    <h4 data-i18n="skills.powerbi">Power BI</h4>
+                    <span class="skill-percentage">65%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip" data-i18n="skills.powerbiDesc">Dashboard development using DAX, calculated
+                    measures, data modeling, and interactive KPI reporting.</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4 data-i18n="skills.kpiReporting">KPI Reporting</h4>
+                    <span class="skill-percentage">50%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip" data-i18n="skills.kpiReportingDesc">Designing performance metrics aligned
+                    with business goals, tracking revenue, margin, growth, and operational efficiency.</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4 data-i18n="skills.dataModeling">Data Modeling</h4>
+                    <span class="skill-percentage">45%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip" data-i18n="skills.dataModelingDesc">Building structured datasets using star
+                    schema principles, relationship management, and dimensional modeling.</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4 data-i18n="skills.businessAnalysis">Business Process Analysis</h4>
+                    <span class="skill-percentage">55%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip" data-i18n="skills.businessAnalysisDesc">Evaluating workflows, identifying
+                    inefficiencies, and translating business requirements into analytical solutions.</div>
+                </div>
+              </div>
+            </div><!-- End Left Skills -->
+          </div>
+
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+              <h3 data-i18n="skills.technical">Technical & Data Tools</h3>
+              <div class="skills-animation">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4 data-i18n="skills.sql">SQL</h4>
+                    <span class="skill-percentage">65%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip" data-i18n="skills.sqlDesc">Advanced querying using JOINs, CTEs,
+                    aggregations, and window functions to extract and structure relational data.</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4 data-i18n="skills.python">Python</h4>
                     <span class="skill-percentage">30%</span>
                   </div>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
-                  <div class="skill-tooltip" data-i18n="skills.webDevDesc">Bazinis supratimas (HTML/CSS), kaip skaityti,
-                    kurti ir stilizuoti paprastus
-                    tinklalapius.</div>
+                  <div class="skill-tooltip" data-i18n="skills.pythonDesc">Data cleaning and transformation using
+                    Pandas, basic automation scripting, and structured dataset preparation.</div>
                 </div>
 
                 <div class="skill-item">
                   <div class="d-flex justify-content-between align-items-center">
-                    <h4 data-i18n="skills.uiux">UX/UI pagrindai</h4>
-                    <span class="skill-percentage">35%</span>
+                    <h4 data-i18n="skills.dataTransformation">Data Transformation</h4>
+                    <span class="skill-percentage">65%</span>
                   </div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0"
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
-                  <div class="skill-tooltip" data-i18n="skills.uiuxDesc">Pradinės žinios apie vartotojo patirties ir
-                    sąsajos dizaino principus
-                    (Figma & Lovable.dev). </div>
+                  <div class="skill-tooltip" data-i18n="skills.dataTransformationDesc">ETL logic, data normalization,
+                    and preparing raw data for BI reporting and performance analysis.</div>
                 </div>
 
                 <div class="skill-item">
                   <div class="d-flex justify-content-between align-items-center">
-                    <h4 data-i18n="skills.marketing">Marketingas</h4>
-                    <span class="skill-percentage">70%</span>
+                    <h4 data-i18n="skills.automation">Automation</h4>
+                    <span class="skill-percentage">55%</span>
                   </div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
-                  <div class="skill-tooltip" data-i18n="skills.marketingDesc">Rinkos analizė, duomenu interpretacija su
-                    Power BI/excel ir vizualinė
-                    kūryba su Canva/DALL·E. </div>
+                  <div class="skill-tooltip" data-i18n="skills.automationDesc">Workflow scripting and system integration
+                    to reduce repetitive manual operations.</div>
                 </div>
               </div>
-            </div><!-- End Frontend Skills -->
-          </div>
-
-          <div class="col-lg-6">
-            <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
-              <h3 data-i18n="skills.technical">Techniniai įgūdžiai</h3>
-              <div class="skills-animation">
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4 data-i18n="skills.automation">Automatizacija</h4>
-                    <span class="skill-percentage">70%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip" data-i18n="skills.automationDesc">Naudojant Make.com įrankius kurti
-                    sudėtingus scenarijus, jungti API ir
-                    konvertuoti duomenis.</div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4 data-i18n="skills.python">Python</h4>
-                    <span class="skill-percentage">20%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip" data-i18n="skills.pythonDesc">Gebėjimas skaityti ir suprasti paprastą kodą,
-                    pradinės žinios apie
-                    programavimo logiką.</div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4 data-i18n="skills.crm">CRM</h4>
-                    <span class="skill-percentage">40%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip" data-i18n="skills.crmDesc">Kurti duomenų bazes pagal klientų verslo
-                    procesus ir valdyti informaciją.
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Backend Skills -->
+            </div><!-- End Right Skills -->
           </div>
         </div>
 
@@ -1187,16 +1237,15 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2 data-i18n="resume.title">CV</h2>
-        <p data-i18n="resume.subtitle">Siekiu karjeros automatizuotų sprendimų srityje, nes tikiu, kad technologijos
-          gali išlaisvinti žmonių laiką
-          ir energiją svarbiausiems darbams. Mano tikslas – padėti įmonėms veikti efektyviau, o ateityje gilinti žinias
-          dirbtinio intelekto ir robotikos srityse.</p>
+        <h2 data-i18n="resume.title">Resume</h2>
+        <p data-i18n="resume.subtitle">I'm building my career in data analytics, focusing on KPI reporting, structured
+          data modeling, and business performance analysis. My goal is to support strategic decision-making through
+          clear, data-driven insights.</p>
         <div class="cv-download-btn-wrapper">
           <a href="https://drive.google.com/drive/folders/1P8uOni7oKtSDI0kj3rCFPhguP-sYuNmw?usp=sharing"
             class="btn btn-primary cv-download-btn" target="_blank">
             <i class="bi bi-download"></i>
-            <span data-i18n="about.downloadCV">Atsisiųsti CV</span>
+            <span data-i18n="about.downloadCV">Download CV</span>
           </a>
         </div>
       </div><!-- End Section Title -->
@@ -1211,15 +1260,14 @@
                 <img src="assets/img/profile/profile-square-2.webp" alt="Profile" class="img-fluid rounded">
               </div>
 
-              <h3 data-i18n="resume.summaryTitle">Profesinė santrauka</h3>
-              <p data-i18n="resume.summaryText">Ambicingas tarptautinio verslo absolventas, turintis praktinės patirties
-                rinkodaros ir pardavimų
-                srityse, strateginių įgūdžių kuriant rinkos įėjimo planus bei pažangių kompetencijų „no-code“
-                automatizacijoje.</p>
+              <h3 data-i18n="resume.summaryTitle">Professional Summary</h3>
+              <p data-i18n="resume.summaryText">Entry-level Data Analyst with a background in International Business and
+                hands-on experience in SQL, Power BI, and Python. Experienced in KPI reporting, performance analysis,
+                and translating business requirements into structured analytical insights.</p>
 
-              <h3 class="mt-4" data-i18n="resume.contactTitle">Kontaktinė informacija</h3>
+              <h3 class="mt-4" data-i18n="resume.contactTitle">Contact Information</h3>
               <ul class="contact-info list-unstyled">
-                <li><i class="bi bi-geo-alt"></i> Statybininkų gatvė 1, Vilnius, Lietuva</li>
+                <li><i class="bi bi-geo-alt"></i> Panevezys, Lithuania</li>
                 <li><i class="bi bi-envelope"></i> don.paulauskas@gmail.com</li>
                 <li><i class="bi bi-phone"></i> +370 6 713 7273</li>
                 <li><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/donatas73a/"
@@ -1227,10 +1275,32 @@
               </ul>
 
               <div class="skills-animation mt-4">
-                <h3 data-i18n="resume.technicalSkills">Techniniai Įgūdžiai</h3>
+                <h3 data-i18n="resume.technicalSkills">Technical Skills</h3>
                 <div class="skill-item">
                   <div class="d-flex justify-content-between">
-                    <span data-i18n="resume.webProgramming">Web Programavimas</span>
+                    <span data-i18n="resume.sql">SQL</span>
+                    <span>65%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span data-i18n="resume.powerbi">Power BI</span>
+                    <span>65%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span data-i18n="resume.python">Python</span>
                     <span>30%</span>
                   </div>
                   <div class="progress">
@@ -1241,33 +1311,11 @@
 
                 <div class="skill-item">
                   <div class="d-flex justify-content-between">
-                    <span data-i18n="resume.uiuxDesign">UI/UX Dizainas</span>
-                    <span>35%</span>
+                    <span data-i18n="resume.kpiReporting">KPI Reporting & Business Analysis</span>
+                    <span>50%</span>
                   </div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span data-i18n="resume.makecom">Make.com</span>
-                    <span>70%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span data-i18n="resume.marketAnalysis">Rinkos Analizė</span>
-                    <span>80%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
                 </div>
@@ -1279,99 +1327,112 @@
           <div class="col-lg-8 ps-4 ps-lg-5">
             <!-- Experience Section -->
             <div class="resume-section" data-aos="fade-up">
-              <h3><i class="bi bi-briefcase me-2"></i><span data-i18n="resume.experienceTitle">Profesinė patirtis</span>
+              <h3><i class="bi bi-briefcase me-2"></i><span data-i18n="resume.experienceTitle">Professional
+                  Experience</span>
               </h3>
 
               <div class="resume-item collapsible-item">
                 <div class="resume-item-header" onclick="toggleResumeItem(this)">
-                  <h4 data-i18n="resume.job1Title">Rinkos Įėjimo Strategas </h4>
+                  <h4 data-i18n="resume.job1Title">Market Entry Strategy Analyst</h4>
                   <i class="bi bi-chevron-down toggle-icon"></i>
                 </div>
                 <h5 data-i18n="resume.job1Period">2024 - 2025</h5>
                 <p class="company"><i class="bi bi-building"></i> <span data-i18n="resume.job1Company">Cosmicnode B.V.
-                    (Eindhoven, Netherlands).</span> </p>
+                    (Eindhoven, Netherlands)</span> </p>
                 <ul class="resume-details">
-                  <li data-i18n="resume.job1Task1">Sukūriau išsamią rinkos įėjimo strategiją, atlikdamas konkurencijos,
-                    reguliavimo ir kainodaros
-                    analizę.</li>
-                  <li data-i18n="resume.job1Task2">Pateikiau pritaikytas rinkos įėjimo taktikas ir reklamos planus,
-                    padėjusius įmonės plėtros
-                    perspektyvoms.</li>
-                  <li data-i18n="resume.job1Task3">Sustiprinau strateginės analizės, duomenų interpretavimo ir
-                    pristatymų suinteresuotosioms šalims
-                    gebėjimus.</li>
+                  <li data-i18n="resume.job1Task1">Conducted market, competitor, and pricing analysis to support
+                    expansion strategy.</li>
+                  <li data-i18n="resume.job1Task2">Evaluated regulatory and financial data for data-driven
+                    decision-making.</li>
+                  <li data-i18n="resume.job1Task3">Presented analytical insights and strategic recommendations to
+                    stakeholders.</li>
                 </ul>
               </div>
 
               <div class="resume-item collapsible-item">
                 <div class="resume-item-header" onclick="toggleResumeItem(this)">
-                  <h4 data-i18n="resume.job2Title">Marketingo ir Pardavimų Praktikantas</h4>
+                  <h4 data-i18n="resume.job2Title">Marketing & Sales Intern</h4>
                   <i class="bi bi-chevron-down toggle-icon"></i>
                 </div>
                 <h5 data-i18n="resume.job2Period">2022 - 2023</h5>
                 <p class="company"><i class="bi bi-building"></i> <span data-i18n="resume.job2Company">Flexi-Force B.V.
-                    (Barneveld, Netherlands).</span> </p>
+                    (Barneveld, Netherlands)</span> </p>
                 <ul class="resume-details">
-                  <li data-i18n="resume.job2Task1">Koordinavau socialinės žiniasklaidos strategijas ir projektinius
-                    darbus, didinau skaitmeninį
-                    matomumą bei įsitraukimą.</li>
-                  <li data-i18n="resume.job2Task2">Patobulinau CRM darbo procesus, pagerindamas tarpdepartamentinę
-                    komunikaciją.</li>
-                  <li data-i18n="resume.job2Task3">Įgijau praktinės patirties rinkodaros, pardavimų ir klientų valdymo
-                    srityse.</li>
+                  <li data-i18n="resume.job2Task1">Analyzed campaign and sales performance data to evaluate
+                    effectiveness.</li>
+                  <li data-i18n="resume.job2Task2">Optimized CRM workflows to improve reporting accuracy and data
+                    visibility.</li>
+                  <li data-i18n="resume.job2Task3">Supported KPI tracking and operational performance reporting.</li>
                 </ul>
               </div>
             </div>
 
             <!-- Education Section -->
             <div class="resume-section" data-aos="fade-up" data-aos-delay="100">
-              <h3><i class="bi bi-mortarboard me-2"></i><span data-i18n="resume.educationTitle">Išsilavinimas</span>
+              <h3><i class="bi bi-mortarboard me-2"></i><span data-i18n="resume.educationTitle">Education</span>
               </h3>
-
               <div class="resume-item collapsible-item">
                 <div class="resume-item-header" onclick="toggleResumeItem(this)">
-                  <h4 data-i18n="resume.edu1Title">Verslo Administracijos Bakalauras</h4>
+                  <h4 data-i18n="resume.edu2Title">Data Analytics & Python Programming</h4>
+                  <i class="bi bi-chevron-down toggle-icon"></i>
+                </div>
+                <h5 data-i18n="resume.edu2Period">2026</h5>
+                <p class="company resume-details"><i class="bi bi-building"></i> <span
+                    data-i18n="resume.edu2School">Vilnius Coding School</span></p>
+                <p data-i18n="resume.edu2Description" class="resume-details">Power BI, DAX, SQL queries, Python, Pandas.
+                </p>
+              </div>
+              <div class="resume-item collapsible-item">
+                <div class="resume-item-header" onclick="toggleResumeItem(this)">
+                  <h4 data-i18n="resume.edu1Title">Bachelor of Business Administration</h4>
                   <i class="bi bi-chevron-down toggle-icon"></i>
                 </div>
                 <h5 data-i18n="resume.edu1Period">2020 - 2025</h5>
                 <p class="company resume-details"><i class="bi bi-building"></i> <span
-                    data-i18n="resume.edu1School">„Fontys"
-                    University of Applied Sciences</span></p>
-                <p data-i18n="resume.edu1Description" class="resume-details">Specializacija konsultavime ir verslo
-                  augimo strategijose.</p>
+                    data-i18n="resume.edu1School">Fontys University of Applied Sciences</span></p>
+                <p data-i18n="resume.edu1Description" class="resume-details">Specialization in consulting and business
+                  growth strategies.</p>
               </div>
 
               <div class="resume-item collapsible-item">
                 <div class="resume-item-header" onclick="toggleResumeItem(this)">
-                  <h4 data-i18n="resume.edu2Title">Vidurinis išsilavinimas</h4>
+                  <h4 data-i18n="resume.edu3Title">Secondary Education</h4>
                   <i class="bi bi-chevron-down toggle-icon"></i>
                 </div>
-                <h5 data-i18n="resume.edu2Period">2014- 2018</h5>
+                <h5 data-i18n="resume.edu3Period">2014 - 2018</h5>
                 <p class="company resume-details"><i class="bi bi-building"></i> <span
-                    data-i18n="resume.edu2School">„Juozo Miltinio"
-                    Gimanzija</span> </p>
-                <p data-i18n="resume.edu2Description" class="resume-details">Matematika, Fizika, Anglų kalba.</p>
+                    data-i18n="resume.edu3School">Juozas Miltinis Gymnasium</span> </p>
+                <p data-i18n="resume.edu3Description" class="resume-details">Mathematics, Physics, English.</p>
               </div>
             </div>
 
             <!-- Certifications Section -->
             <div class="resume-section" data-aos="fade-up" data-aos-delay="200">
-              <h3><i class="bi bi-award me-2"></i><span data-i18n="resume.certificationsTitle">Sertifikatai</span> </h3>
+              <h3><i class="bi bi-award me-2"></i><span data-i18n="resume.certificationsTitle">Certifications</span>
+              </h3>
 
               <div class="resume-item collapsible-item">
                 <div class="resume-item-header" onclick="toggleResumeItem(this)">
-                  <h4 data-i18n="resume.cert1Title">Make.com Advanced Badge</h4>
+                  <h4 data-i18n="resume.cert1Title">Data Analytics & Python Programming</h4>
                   <i class="bi bi-chevron-down toggle-icon"></i>
                 </div>
-                <h5 data-i18n="resume.cert1Year" class="resume-details">2025</h5>
+                <h5 data-i18n="resume.cert1Year" class="resume-details">2026</h5>
               </div>
 
               <div class="resume-item collapsible-item">
                 <div class="resume-item-header" onclick="toggleResumeItem(this)">
-                  <h4 data-i18n="resume.cert2Title">Google Digital Garage</h4>
+                  <h4 data-i18n="resume.cert2Title">Make.com Advanced Badge</h4>
                   <i class="bi bi-chevron-down toggle-icon"></i>
                 </div>
-                <h5 data-i18n="resume.cert2Year" class="resume-details">2021</h5>
+                <h5 data-i18n="resume.cert2Year" class="resume-details">2026</h5>
+              </div>
+
+              <div class="resume-item collapsible-item">
+                <div class="resume-item-header" onclick="toggleResumeItem(this)">
+                  <h4 data-i18n="resume.cert3Title">Google Digital Garage</h4>
+                  <i class="bi bi-chevron-down toggle-icon"></i>
+                </div>
+                <h5 data-i18n="resume.cert3Year" class="resume-details">2021</h5>
               </div>
             </div>
           </div>
@@ -1380,6 +1441,11 @@
       </div>
 
     </section><!-- /Resume Section -->
+
+
+
+
+
 
     </div>
     <!-- Contact Section -->
@@ -1410,7 +1476,7 @@
                 </div>
                 <div class="content">
                   <h4 data-i18n="contact.address">Mūsų adresas</h4>
-                  <p>Statybinių Gatvė 1</p>
+                  <p>Sirupio gatvė </p>
                   <p>Vilnius, Lietuva</p>
                 </div>
               </div>
@@ -1492,7 +1558,7 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>2026</span> <strong class="px-1 sitename">Donpaul</strong> <span data-i18n="footer.rights">Visos
+        <p> <span></span> <strong class="px-1 sitename"></strong> <span data-i18n="footer.rights">Visos
             teisės saugomos</span></p>
       </div>
       <div class="credits">

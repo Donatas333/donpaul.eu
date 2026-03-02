@@ -358,24 +358,28 @@ body.portfolio-auto-emails .case-study-hero-block {
 /* Positioning context for decorative underline SVGs */
 body.portfolio-auto-emails .case-study-hero-block {
   position: relative;
-  z-index: 1; /* create stacking context for children */
+  z-index: 1;
+  /* create stacking context for children */
 }
 
 /* Inline SVG underline used under the hero title */
 body.portfolio-auto-emails .case-study-hero-title {
   position: relative;
   display: inline-block;
-  z-index: 3; /* ensure title sits above decorative elements */
+  z-index: 3;
+  /* ensure title sits above decorative elements */
 }
 
 body.portfolio-auto-emails .title-underline {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 30px; /* raised so underline sits higher behind the title */
+  bottom: 30px;
+  /* raised so underline sits higher behind the title */
   width: 120%;
   height: 72px;
-  z-index: -1; /* fully behind the title */
+  z-index: -1;
+  /* fully behind the title */
   pointer-events: none;
   opacity: 0.98;
   will-change: transform, opacity;
@@ -387,15 +391,31 @@ body.portfolio-auto-emails .title-underline path {
 }
 
 @keyframes underlineFloatBack {
-  0% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-52%) translateY(-6px); }
-  100% { transform: translateX(-50%) translateY(0); }
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  50% {
+    transform: translateX(-52%) translateY(-6px);
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
 }
 
 @keyframes underlineFloatFront {
-  0% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-48%) translateY(6px); }
-  100% { transform: translateX(-50%) translateY(0); }
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  50% {
+    transform: translateX(-48%) translateY(6px);
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
 }
 
 body.portfolio-auto-emails .title-underline.hero-curve-back {
@@ -412,8 +432,10 @@ body.portfolio-auto-emails .title-underline.hero-curve-front {
 
 /* Bring the front curve above the title to cross through words (3D effect) */
 body.portfolio-auto-emails .title-underline.hero-curve-front {
-  z-index: 5; /* sit above title */
-  bottom: 60px; /* raise so it intersects glyphs */
+  z-index: 5;
+  /* sit above title */
+  bottom: 60px;
+  /* raise so it intersects glyphs */
   opacity: 1;
 }
 
@@ -425,19 +447,40 @@ body.portfolio-auto-emails .title-underline.hero-curve-back {
 
 /* Color + size tweaks responsive */
 @media (max-width: 992px) {
-  body.portfolio-auto-emails .title-underline { width: 140%; height: 56px; bottom: 22px; }
-  body.portfolio-auto-emails .title-underline path { stroke-width: 18; }
+  body.portfolio-auto-emails .title-underline {
+    width: 140%;
+    height: 56px;
+    bottom: 22px;
+  }
+
+  body.portfolio-auto-emails .title-underline path {
+    stroke-width: 18;
+  }
 }
 
 @media (max-width: 480px) {
-  body.portfolio-auto-emails .case-study-hero-block { padding: 1rem 12px; }
-  body.portfolio-auto-emails .case-study-hero-title { font-size: 28px; }
-  body.portfolio-auto-emails .title-underline { width: 160%; height: 44px; bottom: 14px; }
-  body.portfolio-auto-emails .title-underline path { stroke-width: 14; }
+  body.portfolio-auto-emails .case-study-hero-block {
+    padding: 1rem 12px;
+  }
+
+  body.portfolio-auto-emails .case-study-hero-title {
+    font-size: 28px;
+  }
+
+  body.portfolio-auto-emails .title-underline {
+    width: 160%;
+    height: 44px;
+    bottom: 14px;
+  }
+
+  body.portfolio-auto-emails .title-underline path {
+    stroke-width: 14;
+  }
 }
 
 /* Respect user motion preferences */
 @media (prefers-reduced-motion: reduce) {
+
   body.portfolio-auto-emails .title-underline,
   body.portfolio-auto-emails .title-underline.hero-curve-back,
   body.portfolio-auto-emails .title-underline.hero-curve-front {
@@ -3274,7 +3317,7 @@ section>.container,
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   border-radius: 8px;
   box-shadow: 0 0 30px rgba(var(--default-color), 0.1);
 }
@@ -3723,6 +3766,40 @@ border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90
   border: 6px solid var(--background-color);
 }
 
+.testimonials .testimonial-item .testimonial-images-overlap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -40px auto 0 auto;
+  height: 90px;
+  position: relative;
+}
+
+.testimonials .testimonial-item .testimonial-images-overlap .testimonial-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 0 -25px 0 0;
+  position: relative;
+  z-index: 3;
+  border: 6px solid var(--background-color);
+  flex-shrink: 0;
+}
+
+.testimonials .testimonial-item .testimonial-images-overlap .testimonial-img:nth-child(2) {
+  z-index: 2;
+}
+
+.testimonials .testimonial-item .testimonial-images-overlap .testimonial-img:nth-child(3) {
+  z-index: 1;
+}
+
+.testimonials .testimonial-item:has(.testimonial-images-overlap) h3,
+.testimonials .testimonial-item:has(.testimonial-images-overlap) h4 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
@@ -4040,7 +4117,7 @@ border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90
    Append to the end of assets/css/main.css
 */
 .portfolio-details-slider {
-  overflow: hidden !important;
+  overflow: visible !important;
   /* keep slides clipped inside container */
 }
 
@@ -4069,9 +4146,9 @@ border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90
 /* Images inside slides: fill and crop consistently */
 .portfolio-swiper-slide img {
   width: 100% !important;
-  height: 480px !important;
+  height: auto !important;
   /* tweak as needed */
-  object-fit: cover !important;
+  object-fit: contain !important;
   display: block !important;
 }
 
@@ -5009,5 +5086,60 @@ body.portfolio-auto-emails .portfolio-swiper-slide img {
     padding: 0 14px;
     font-size: 1rem;
     line-height: 1.6;
+  }
+}
+
+/* ================================
+   PORTFOLIO SLIDER IMAGE OVERRIDE
+   Paste at VERY bottom of main.css
+   ================================ */
+
+/* 1) Define the visible "window" height (container), not just the <img> */
+body.portfolio-auto-emails .portfolio-details-slider,
+body.portfolio-auto-emails .swiper,
+body.portfolio-auto-emails .swiper-wrapper,
+body.portfolio-auto-emails .swiper-slide,
+body.portfolio-auto-emails .portfolio-swiper-slide {
+  height: 400px !important;
+  /* desktop default */
+}
+
+/* 2) Make the image fill that window */
+body.portfolio-auto-emails .portfolio-swiper-slide img,
+body.portfolio-auto-emails .swiper-slide img {
+  width: 100% !important;
+  height: 100% !important;
+  max-height: none !important;
+  aspect-ratio: auto !important;
+
+  /* CHOOSE ONE:
+     - contain = NO cropping (full image visible, may add empty space)
+     - cover   = fills frame (cropping possible)
+  */
+  object-fit: contain !important;
+  /* object-fit: cover !important; */
+}
+
+/* 3) Bigger on large screens */
+@media (min-width: 1200px) {
+
+  body.portfolio-auto-emails .portfolio-details-slider,
+  body.portfolio-auto-emails .swiper,
+  body.portfolio-auto-emails .swiper-wrapper,
+  body.portfolio-auto-emails .swiper-slide,
+  body.portfolio-auto-emails .portfolio-swiper-slide {
+    height: 520px !important;
+  }
+}
+
+/* 4) Smaller on phones */
+@media (max-width: 576px) {
+
+  body.portfolio-auto-emails .portfolio-details-slider,
+  body.portfolio-auto-emails .swiper,
+  body.portfolio-auto-emails .swiper-wrapper,
+  body.portfolio-auto-emails .swiper-slide,
+  body.portfolio-auto-emails .portfolio-swiper-slide {
+    height: 220px !important;
   }
 }
