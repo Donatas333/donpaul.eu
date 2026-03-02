@@ -349,18 +349,18 @@
       "exploreOtherProjects": "Peržvelgti Kitus Projektus",
       "related1": {
         "category": "Power BI",
-        "title": "Pardavimų Veiklos Analitika",
-        "desc": "KPI ataskaitos ir verslo analizė"
+        "title": "Skrydžių analizė",
+        "desc": "JAV skrydžių veiklos ir vėlavimų įžvalgos"
       },
       "related2": {
-        "category": "SQL",
-        "title": "E-komercijos Analizė",
-        "desc": "Duomenų transformacija ir SQL analitika"
+        "category": "Duomenų analitika",
+        "title": "E. prekybos SQL analizė",
+        "desc": "Pardavimų analizė naudojant SQL užklausas"
       },
       "related3": {
-        "category": "Automatizacija",
-        "title": "Zoom Susitikimų Analitika",
-        "desc": "AI paremta susitikimų analitika ir sėkmės sekimas"
+        "category": "Power BI",
+        "title": "Pardavimų analizė",
+        "desc": "Ataskaitos, KPI ir prietaisų skydai naudojant Power BI"
       }
     },
     "autoEmails": {
@@ -458,19 +458,19 @@
       },
       "exploreOtherProjects": "Peržiūrėti kitus projektus",
       "related1": {
-        "category": "Automatizavimas",
-        "title": "Auto CRM",
-        "desc": "Klientų santykių valdymo automatizavimas"
+        "category": "Power BI",
+        "title": "Skrydžių analizė",
+        "desc": "JAV skrydžių veiklos ir vėlavimų įžvalgos"
       },
       "related2": {
-        "category": "Socialiniai tinklai",
-        "title": "Video Generator",
-        "desc": "DI pagrįstas turinio kūrimas"
+        "category": "Duomenų analitika",
+        "title": "E. prekybos SQL analizė",
+        "desc": "Pardavimų analizė naudojant SQL užklausas"
       },
       "related3": {
-        "category": "Verslo procesai",
-        "title": "Website Build",
-        "desc": "Profesionalus web kūrimas"
+        "category": "Power BI",
+        "title": "Pardavimų analizė",
+        "desc": "Ataskaitos, KPI ir prietaisų skydai naudojant Power BI"
       }
     },
     "videoGenerator": {
@@ -559,18 +559,18 @@
       "exploreOtherProjects": "Peržiūrėti kitus projektus",
       "related1": {
         "category": "Power BI",
-        "title": "Pardavimų veikla",
-        "desc": "Pajamų, maržos ir produktų/klientų segmentavimo suvestinė"
+        "title": "Skrydžių analizė",
+        "desc": "JAV skrydžių veiklos ir vėlavimų įžvalgos"
       },
       "related2": {
-        "category": "SQL",
-        "title": "Duomenų transformacija",
-        "desc": "Valymas, JOIN, CTE ir KPI paruošti duomenų rinkiniai"
+        "category": "Duomenų analitika",
+        "title": "E. prekybos SQL analizė",
+        "desc": "Pardavimų analizė naudojant SQL užklausas"
       },
       "related3": {
-        "category": "Automatizavimas",
-        "title": "Auto Email",
-        "desc": "Pasikartojančios komunikacijos procesų automatizavimas"
+        "category": "Power BI",
+        "title": "Pardavimų analizė",
+        "desc": "Ataskaitos, KPI ir prietaisų skydai naudojant Power BI"
       }
     },
     "testimonialGenerator": {
@@ -659,18 +659,18 @@
       "exploreOtherProjects": "Peržiūrėti kitus projektus",
       "related1": {
         "category": "Power BI",
-        "title": "Pardavimų veiklos suvestinė",
-        "desc": "Pajamų ir pelningumo vizualizacija"
+        "title": "Skrydžių analizė",
+        "desc": "JAV skrydžių veiklos ir vėlavimų įžvalgos"
       },
       "related2": {
-        "category": "Power BI",
-        "title": "JAV skrydžių veikla",
-        "desc": "Vėlavimų KPI ir operacinė analizė"
+        "category": "Duomenų analitika",
+        "title": "E. prekybos SQL analizė",
+        "desc": "Pardavimų analizė naudojant SQL užklausas"
       },
       "related3": {
-        "category": "Automatizavimas",
-        "title": "Auto Email",
-        "desc": "Procesų automatizavimo projektas"
+        "category": "Power BI",
+        "title": "Pardavimų analizė",
+        "desc": "Ataskaitos, KPI ir prietaisų skydai naudojant Power BI"
       }
     },
     "autoCRM": {
@@ -766,19 +766,19 @@
       },
       "exploreOtherProjects": "Peržiūrėti kitus projektus",
       "related1": {
-        "category": "Automatizavimas",
-        "title": "Auto Email",
-        "desc": "El. pašto marketingo automatizavimas"
+        "category": "Power BI",
+        "title": "Skrydžių analizė",
+        "desc": "JAV skrydžių veiklos ir vėlavimų įžvalgos"
       },
       "related2": {
-        "category": "Automatizavimas",
-        "title": "Website Build",
-        "desc": "Potencialių klientų generavimo tinklalapis"
+        "category": "Duomenų analitika",
+        "title": "E. prekybos SQL analizė",
+        "desc": "Pardavimų analizė naudojant SQL užklausas"
       },
       "related3": {
-        "category": "Automatizavimas",
-        "title": "Video Generator",
-        "desc": "Turinio marketingo automatizavimas"
+        "category": "Power BI",
+        "title": "Pardavimų analizė",
+        "desc": "Ataskaitos, KPI ir prietaisų skydai naudojant Power BI"
       }
     },
     "autoCaptions": {
@@ -877,18 +877,18 @@
       "exploreOtherProjects": "Peržiūrėti kitus projektus",
       "related1": {
         "category": "Power BI",
-        "title": "Skrydžių vėlavimų analizė",
-        "desc": "KPI analizė per 5,8 mln.+ skrydžių įrašų"
+        "title": "Skrydžių analizė",
+        "desc": "JAV skrydžių veiklos ir vėlavimų įžvalgos"
       },
       "related2": {
-        "category": "SQL",
-        "title": "Pardavimų duomenų transformacija",
-        "desc": "Valymas, JOIN, CTE ir KPI paruošti duomenų rinkiniai"
+        "category": "Duomenų analitika",
+        "title": "E. prekybos SQL analizė",
+        "desc": "Pardavimų analizė naudojant SQL užklausas"
       },
       "related3": {
-        "category": "Automatizavimas",
-        "title": "Auto Emails",
-        "desc": "Pasikartojančios komunikacijos procesų automatizavimas"
+        "category": "Power BI",
+        "title": "Pardavimų analizė",
+        "desc": "Ataskaitos, KPI ir prietaisų skydai naudojant Power BI"
       }
     },
     "zoomMeetingGenerator": {
@@ -972,19 +972,19 @@
       "deliverable4": "Pasirinktinai: CRM pastabos + el. laiško juodraščio generavimas",
       "exploreOtherProjects": "Peržiūrėti kitus projektus",
       "related1": {
-        "category": "Automatizavimas",
-        "title": "Auto CRM",
-        "desc": "CRM duomenų sinchronizavimas ir ataskaitų automatizavimas"
+        "category": "Power BI",
+        "title": "Skrydžių analizė",
+        "desc": "JAV skrydžių veiklos ir vėlavimų įžvalgos"
       },
       "related2": {
-        "category": "Automatizavimas",
-        "title": "Auto Email",
-        "desc": "Automatizuoti el. laiškų procesai ir priminimai"
+        "category": "Duomenų analitika",
+        "title": "E. prekybos SQL analizė",
+        "desc": "Pardavimų analizė naudojant SQL užklausas"
       },
       "related3": {
-        "category": "Analitika",
-        "title": "Pardavimų veiklos suvestinė",
-        "desc": "Power BI ataskaitos ir KPI stebėsena"
+        "category": "Power BI",
+        "title": "Pardavimų analizė",
+        "desc": "Ataskaitos, KPI ir prietaisų skydai naudojant Power BI"
       }
     }
   }
