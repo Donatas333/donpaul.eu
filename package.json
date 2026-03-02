@@ -1,0 +1,17 @@
+{
+    "name": "donatas-portfolio",
+    "version": "1.0.0",
+    "description": "Professional portfolio website with automated solutions expertise",
+    "type": "module",
+    "scripts": {
+        "i18n:sync": "node scripts/sync-i18n.mjs",
+        "i18n:scan": "node scripts/scan-i18n-keys.mjs"
+    },
+    "keywords": [
+        "portfolio",
+        "automation",
+        "business-solutions"
+    ],
+    "author": "Donatas Paulauskas",
+    "license": "MIT"
+}
