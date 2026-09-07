@@ -4,6 +4,7 @@
     "description": "Professional portfolio website with automated solutions expertise",
     "type": "module",
     "scripts": {
+        "build": "node scripts/build-portfolio.mjs",
         "i18n:sync": "node scripts/sync-i18n.mjs",
         "i18n:scan": "node scripts/scan-i18n-keys.mjs"
     },
